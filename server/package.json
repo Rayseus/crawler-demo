@@ -1,0 +1,22 @@
+{
+  "name": "crawler_server",
+  "version": "1.0.0",
+  "description": "yys",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "get-pixels": "^3.3.3",
+    "images": "^3.2.4",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.7.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.8",
+    "rembrandt": "^0.1.3"
+  },
+  "scripts": {
+    "start": "node scripts/getData.js && nodemon index.js",
+    "local": "node scripts/getData.js"
+  }
+}
